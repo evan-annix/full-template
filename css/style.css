@@ -34,9 +34,23 @@ nav a:hover {
 .card {
     float: left;
     text-align: center;
-    margin: 20px;
+    margin-left: 50px;
 }
 
 .card img {
-    width: 100px 
+    width: 200px;
+}
+
+#css {
+    float: center;
+    position: static;
+    margin-left: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
