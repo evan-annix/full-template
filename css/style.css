@@ -83,7 +83,7 @@ p {
 
 @media screen and (max-width: 750px) {
   #git {
-    float: none;
+    float: left;
     position: relative;
   }
 
@@ -94,7 +94,6 @@ p {
 
   #github {
       float: right;    
-      position: relative;
   }
 
   .card {
