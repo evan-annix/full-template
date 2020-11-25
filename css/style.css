@@ -77,8 +77,10 @@ p {
     top: 0;
 }
 
+/*remove width from #github to make it this div match the small square style of row above as opposed to centering*/
 #github {
     float: left;
+    width: 100%;
 }
 
 @media screen and (max-width: 750px) {
@@ -93,7 +95,8 @@ p {
   }
 
   #github {
-      float: right;    
+      float: right;
+      width: 49%;    
   }
 
   .card {
