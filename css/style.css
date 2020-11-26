@@ -35,7 +35,7 @@ nav a:hover {
     width: 100%;
     position: relative;
     border: 1px green solid;
-    height: 750px;
+    height: 1000px;
 }
 
 .card {
@@ -47,9 +47,7 @@ nav a:hover {
 }
 
 img {
-    max-width: 60%;
-    max-height: 200px;
-    min-width: 100px;
+    max-width: 200px;
     
 }
 
@@ -77,11 +75,21 @@ p {
     top: 0;
 }
 
-/*remove width from #github to make it this div match the small square style of row above as opposed to centering*/
 #git {
     float: left;
-    width: 100%;
 }
+
+#github {
+    float: left;
+}
+
+#gitpod {
+    float: right;
+    position: inherit;
+}
+
+
+
 
 @media screen and (max-width: 750px) {
   #js {
@@ -105,8 +113,24 @@ p {
   }
 
   img {
-      max-height: 300px;
+      max-width: 60%;
+      min-width: 120px;
   }
+
+}
+
+@media screen and (max-width: 320px) {
+  
+  .card {
+      float: center;
+      clear: both;
+      position: inherit;
+      width: 100%;
+  }
+
+    #git {
+        width: 100%;
+    }
 
 }
 
