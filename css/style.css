@@ -81,6 +81,7 @@ p {
 
 #github {
     float: left;
+    width: 33%;
 }
 
 #gitpod {
@@ -103,8 +104,7 @@ p {
   }
 
   #git {
-      float: right;
-      width: 49%;    
+      float: right;  
   }
 
   .card {
@@ -122,15 +122,8 @@ p {
 @media screen and (max-width: 320px) {
   
   .card {
-      float: center;
-      clear: both;
-      position: inherit;
       width: 100%;
   }
-
-    #git {
-        width: 100%;
-    }
 
 }
 
