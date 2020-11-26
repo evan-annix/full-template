@@ -70,7 +70,7 @@ p {
 }
 
 
-#git {
+#js {
     float: right;
     position: absolute;
     right: 0;
@@ -78,13 +78,13 @@ p {
 }
 
 /*remove width from #github to make it this div match the small square style of row above as opposed to centering*/
-#github {
+#git {
     float: left;
     width: 100%;
 }
 
 @media screen and (max-width: 750px) {
-  #git {
+  #js {
     float: left;
     position: relative;
   }
@@ -94,7 +94,7 @@ p {
     position: relative;
   }
 
-  #github {
+  #git {
       float: right;
       width: 49%;    
   }
